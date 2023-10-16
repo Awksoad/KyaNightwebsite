@@ -1,13 +1,73 @@
 <!DOCTYPE css>
-* {box-sizing:border-box}
+* {box-sizing: content-box}
+
+.Header {
+  padding-left: 80px;
+  padding-right: 70px;
+}
+
+.Homepage-Header  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.nav  {
+  padding-left: 90px;
+  padding-right: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comic  {
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 10px;
+}
+
+.body {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.bake {
+  padding-left: 83px;
+  padding-right: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.Other  {
+  padding-top: -20px;
+  padding-left: 730px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+.Footer {
+  padding-left: 83px;
+}
+
+.title  {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 550px;
   position: relative;
   margin: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 
 /* Hide the images by default */
@@ -29,21 +89,24 @@
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  display: inline-flex;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-  position: fixed;
-  padding-right: 300px;
+  position: absolute;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .prev {
   left: 0;
   border-radius: 3px 0 0 3px;
-  position: fixed;
-  padding-left: 275px;
+  position: absolute;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -68,8 +131,8 @@
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  padding-top: 709px;
-  padding-left: 260px;
+  padding-top: 618px;
+  padding-left: 223px;
 }
 
 /* The dots/bullets/indicators */
@@ -94,15 +157,107 @@
   animation-duration: 1.5s;
 }
 
+.Bakery {
+  text-align: center;
+  display: block;
+}
+
+.Cake {
+  padding-top: 25px;
+  padding-bottom: 75px;
+  display: block;
+}
+
+.row  {
+  padding-top: 75px;
+}
+
+.Art  {
+  text-align: center;
+  display: block;
+}
+
+.Journey {
+  padding-top: 25px;
+  padding-bottom: 75px;
+  display: block;
+}
+
+.comics  {
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 75px;
+}
+
+.column12  {
+  padding-top: 50px;
+  display: block;
+}
+
+.column1  {
+  display: block;
+}
+
+.column11  {
+  display: block;
+  padding-bottom: 50px;
+}
+
+.column2 {
+  padding-top: 25px;
+  padding-bottom: 75px;
+  display: block;
+  text-align: center;
+}
+
+#fs img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
 
-footer  {
+.about  {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.footer  {
   font-size: 10px;
   font-style: italic;
   padding-top: 100px;
+  padding-bottom: 100px;
   text-align: center;
+}
+
+.back {
+  padding-top: 10px;
+}
+
+.J-series {
+  padding-left: 360px;
+  padding-top: 100px;
+}
+
+.art  {
+  padding-top: 50px;
+}
+
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
